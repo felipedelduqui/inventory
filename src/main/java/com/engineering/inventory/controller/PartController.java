@@ -2,7 +2,7 @@ package com.engineering.inventory.controller;
 
 import com.engineering.inventory.domain.Part;
 import com.engineering.inventory.service.PartService;
-import com.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
