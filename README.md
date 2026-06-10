@@ -1,12 +1,22 @@
-# Mechanical Engineering Parts Inventory API
+# Parts Inventory API
 
 A lightweight, clean-architecture RESTful API developed with Spring Boot to manage mechanical components and parts inventory for engineering projects.
+
+## Tech Stack & Ecosystem
+
+* **Backend Framework:** Spring Boot 4.0.6 (Spring Web, Spring Data JPA)
+* **Language Runtime:** Java 21 (OpenJDK / Temurin Architecture)
+* **Build Automation & Dependency Management:** Apache Maven
+* **Database Management System:** H2 Database (In-Memory engine for development lifecycle)
+* **Object-Relational Mapping (ORM):** Hibernate 7.2.12.Final
+* **Embedded Web Server:** Apache Tomcat 11.0.21
+* **Development Environment:** Visual Studio Code (VS Code) with Red Hat Java & Spring Tool Suites
+
+---
 
 ## Project Structure
 
 The codebase strictly adheres to the standard layered architecture convention (`domain`, `repository`, `service`, `controller`), ensuring separation of concerns and independent business logic validation.
-
----
 
 ```text
 inventory/
@@ -29,20 +39,10 @@ inventory/
         │                   └── PartService.java
         └── resources/
             └── application.properties
+```
 
 ---
 
-## Tech Stack & Ecosystem
-
-* **Backend Framework:** Spring Boot 4.0.6 (Spring Web, Spring Data JPA)
-* **Language Runtime:** Java 21 (OpenJDK / Temurin Architecture)
-* **Build Automation & Dependency Management:** Apache Maven
-* **Database Management System:** H2 Database (In-Memory engine for development lifecycle)
-* **Object-Relational Mapping (ORM):** Hibernate 7.2.12.Final
-* **Embedded Web Server:** Apache Tomcat 11.0.21
-* **Development Environment:** Visual Studio Code (VS Code) with Red Hat Java & Spring Tool Suites
-
----
 
 ## Core Features Implemented
 
