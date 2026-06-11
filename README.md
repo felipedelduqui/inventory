@@ -7,7 +7,8 @@ A lightweight, clean-architecture RESTful API developed with Spring Boot to mana
 * **Backend Framework:** Spring Boot 4.0.6 (Spring Web, Spring Data JPA)
 * **Language Runtime:** Java 21 (OpenJDK / Temurin Architecture)
 * **Build Automation & Dependency Management:** Apache Maven
-* **Database Management System:** H2 Database (In-Memory engine for development lifecycle)
+* **Database Management System:** Neon PostgreSQL (Cloud-native serverless engine for production persistence lifecycle)
+* **Database Connection Pooling:** HikariCP
 * **Object-Relational Mapping (ORM):** Hibernate 7.2.12.Final
 * **Embedded Web Server:** Apache Tomcat 11.0.21
 * **Development Environment:** Visual Studio Code (VS Code) with Red Hat Java & Spring Tool Suites
